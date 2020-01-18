@@ -1,0 +1,35 @@
+{
+  "name": "team-html-generator",
+  "version": "1.0.0",
+  "description": "CLI for generating a team html page",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksatter/node-team-html-generator.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "template",
+    "html-template",
+    "inquirer"
+  ],
+  "author": "Katheryn Satterlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksatter/node-team-html-generator/issues"
+  },
+  "homepage": "https://github.com/ksatter/node-team-html-generator#readme",
+  "dependencies": {
+    "html-template": "^1.2.2",
+    "inquirer": "^7.0.3",
+    "jest": "^24.9.0"
+  }
+}
